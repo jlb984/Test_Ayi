@@ -35,6 +35,8 @@ git clone https://github.com/jlb984/Test_Ayi.git
 2. Haz clic derecho sobre la clase `TestRunner` y selecciona **Run 'TestRunner'**.
 3. IntelliJ ejecutará los tests utilizando **JUnit** como framework de ejecución.
 
+**Nota** editando la linea 'tags' en el archivo TestRunner se puede seleccionar los escenarios a ejecutar
+
 ## Estructura del Proyecto
 
 - **src/test/java**:
