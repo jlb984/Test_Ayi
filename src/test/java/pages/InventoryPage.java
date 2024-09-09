@@ -1,6 +1,7 @@
 package pages;
 
 import org.openqa.selenium.By;
+import static utility.EsperaHelper.esperaVisibilidad;
 import static utility.Hooks.driver;
 
 public class InventoryPage {
@@ -9,7 +10,7 @@ public class InventoryPage {
 
     public static boolean comprobarTitulo() {
         boolean existe = false;
-
+        esperaVisibilidad(titulo, 10);
         try {
             existe = driver.findElement(titulo).isDisplayed();
         } catch (Exception e) {
